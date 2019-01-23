@@ -32,3 +32,9 @@ TEST(Test_Calculation, Dividing)
 	EXPECT_EQ(2, divide(10, 5));
 	EXPECT_EQ(-7, divide(15, -3));
 }
+
+TEST(Test_Calculation, Squaring)
+{
+	EXPECT_EQ(4, square(2));
+	EXPECT_EQ(25, square(5));
+}
